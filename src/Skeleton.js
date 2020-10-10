@@ -1,16 +1,20 @@
 import React from 'react';
 import './Skeleton.css'
 export default function Skeleton(props){
-    console.log(props)
-    if(props.width){
-      return true
+    let cards = []
+    let numberOfCards = props.contentNumber ? parseInt(props.contentNumber) : 4;
+    for(let i = 0; i < numberOfCards ; i++){
+        cards.push(<div className="skeletonBody"></div>)
     }
+
+     
 
 
 
     return(
-        <div className="skeletonBody">
-
+        <div className="skeletonMain" style={{width: props.width ? props.width : '100%'}}>
+            {cards}
         </div>
+
     )
 }

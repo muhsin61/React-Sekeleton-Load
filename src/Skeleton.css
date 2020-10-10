@@ -1,3 +1,6 @@
+.skeletonMain{
+    position: relative;
+}
 .skeletonBody{
     display: inline-block;
     position: relative;

@@ -7,12 +7,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Skeleton />
-        <Skeleton width="150px"/>
+        <Skeleton width="200px"/>
         <Skeleton content="none" />
         <Skeleton content="card" />
         <Skeleton content="card-2" />
         <Skeleton content="text" />
-        <Skeleton contentNumber="4"/>
+        <Skeleton contentNumber="8"/>
       </header>
     </div>
   );
