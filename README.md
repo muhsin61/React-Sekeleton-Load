@@ -11,18 +11,38 @@ npm i react-simple-skeleton
   import Skeleton from "react-simple-skeleton"
 
   <Skeleton /> //default 
-  <Skeleton width="50%"/>
+  <Skeleton width="50%"/> //default fluid
   <Skeleton content="card" />
   <Skeleton content="card-2" />
   <Skeleton content="text" />
-  <Skeleton contentNumber="8" content="card"/>
+  <Skeleton contentNumber="8" content="card"/> //default 4
 
 ```
+##
+```<Skeleton /> //default
+```
+![til](https://media.giphy.com/media/Nrx1e2rmpOtU0kvsM7/giphy.gif)
+##
+```
+<Skeleton content="card" />
+```
+![til](https://media.giphy.com/media/H0G75Xfz3zRcfb1hLq/giphy.gif)
+
+##
+```
+<Skeleton content="card-2" />
+<Skeleton content="text" />
+```
+![til](https://media.giphy.com/media/p572Ru1RhqCBs75vlZ/giphy.gif)
+
+ 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
+##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
