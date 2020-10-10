@@ -19,7 +19,8 @@ npm i react-simple-skeleton
 
 ```
 ##
-```<Skeleton /> //default
+```
+<Skeleton /> //default
 ```
 ![til](https://media.giphy.com/media/Nrx1e2rmpOtU0kvsM7/giphy.gif)
 ##
