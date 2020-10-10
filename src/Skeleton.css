@@ -1,0 +1,29 @@
+.skeletonBody{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 10px 0 rgba(33, 33, 33, 0.15);
+}
+.skeletonBody::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -150px;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(to right, transparent 0%, #E8E8E8 50%, transparent 100%);
+    animation: loading 1s infinite;
+    z-index: inherit;
+}
+@keyframes loading {
+    from {
+        left: -200px;
+    }
+    to   {
+        left: 50%;
+    }
+}
