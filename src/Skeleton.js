@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skeleton.css'
-export default function Skeleton(props) {
+const Skeleton = (props) => {
     let cards = []
     let numberOfCards = props.contentNumber ? parseInt(props.contentNumber) : 4;
 
@@ -35,3 +35,4 @@ export default function Skeleton(props) {
         </div>
     )
 }
+export default Skeleton
